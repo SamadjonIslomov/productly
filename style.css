@@ -1,0 +1,394 @@
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    background-color: #19181D;
+    background-image: url(./bg_field.svg);
+    background-position: top;
+    background-repeat: repeat-y;
+  }
+  
+  h1 {
+    font-size: 71px;
+    font-weight: 700;
+    color: #EFE8DD;
+  }
+  
+  h2 {
+    margin-bottom: 48px;
+  
+    font-size: 48px;
+    font-weight: 600;
+    color: #EFE8DD;
+  }
+  
+  h3 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #EFE8DD;
+  }
+  
+  h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #EFE8DD;
+  }
+  
+  .header {
+    width: 100%;
+    background: linear-gradient(to top, rgba(25,24,29,0) 0%, rgba(153,229,80,0.1) 100%);
+  }
+  
+  .header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1180px;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  
+  .menu {
+    list-style-type: none;
+  }
+  
+  .menu__item {
+    display: inline;
+    margin-right: 50px;
+    padding: 10px;
+    font-weight: 500;
+  }
+  
+  .menu__item:hover {
+    border-bottom: 2px solid #99E550;
+  }
+  
+  .link {
+    color: #99E550;
+    text-decoration: none;
+  }
+  
+  .button {
+    padding: 10px 38px;
+  
+    font-weight: 500;
+    background-color: #212024;
+    border: 2px solid #99E550;
+    border-radius: 45px;
+    box-shadow: inset 0 0 17px rgba(153,229,80,0.17);
+  }
+  
+  .button-border {
+    padding: 10px 38px;
+  
+    font-weight: 500;
+    color: #19181D;
+    background-color: rgba(33, 32, 36, 0.1);
+    border: 2px solid #19181D;
+    border-radius: 45px;
+  }
+  
+  .button:hover,
+  .button-border:hover {
+    color: #19181D;
+    background-color: #99E550;
+    border: 2px solid #99E550;
+    transition: background-color 0.2s ease-in;
+  }
+  
+  .content__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+    margin: 0 auto;
+  }
+  
+  .content {
+    padding: 119px 0 0;
+  }
+  
+  .main__title {
+    margin-bottom: 12px;
+  }
+  
+  .social__links {
+    display: flex;
+    margin-top: 56px;
+  }
+  
+  .social__item {
+    margin-right: 30px;
+  }
+  
+  .social__icon {
+    fill: #EFE8DD;
+  }
+  
+  .social__icon:hover {
+    fill: #99E550;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .about__wrapper {
+    display: flex;
+    width: 1180px;
+    margin: 90px auto 45px;
+  }
+  
+  .skills__list {
+    box-sizing: border-box;
+    width: 380px;
+    margin-right: 170px;
+    padding: 40px;
+  
+  
+    background-color: #212024;
+    border: 2px solid #99E550;
+    border-radius: 33px;
+    box-shadow: inset 0 0 17px rgba(153,229,80,0.17);
+  }
+  
+  .skill {
+    margin-bottom: 20px;
+  }
+  
+  .skill:last-child,
+  .contacts__title {
+    margin-bottom: 0;
+  }
+  
+  .skill__level {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 7px;
+  }
+  
+  .skill__level-status {
+    display: flex;
+    justify-content: space-between;
+    width: 145px;
+    margin-left: 25px;
+  }
+  
+  .point {
+    width: 13px;
+    height: 19px;
+  
+    background-color: #797979;
+  }
+  
+  .point-up {
+    background-color: #99E550;
+  }
+  
+  .skill__description {
+    font-weight: 300;
+    color: #EFE8DD;
+  }
+  
+  .about__description {
+    margin-bottom: 16px;
+    color: #EFE8DD;
+  }
+  
+  .about__bottom {
+    display: flex;
+    margin-top: 52px;
+  }
+  
+  .languages {
+    width: 234px;
+    margin-right: 142px;
+  }
+  
+  .title-green {
+    margin-bottom: 26px;
+    color: #99E550;
+  }
+  
+  .language__item {
+    margin-bottom: 6px;
+    color: #EFE8DD;
+  }
+  
+  
+  .icon {
+    width: 40px;
+    margin-right: 24px;
+  }
+  
+  .code {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 1180px;
+    margin: 90px auto 45px;
+    padding: 47px 77px 15px;
+  
+    background-color: #EFE8DD;
+    border-radius: 33px;
+  }
+  
+  .title-black {
+    color: #19181D;
+  }
+  
+  .experience {
+    display: flex;
+    width: 1180px;
+    margin: 0 auto;
+    padding: 45px 0;
+  }
+  
+  .projects {
+    margin-right: 97px;
+  }
+  
+  .projects__list {
+    display: flex;
+  }
+  
+  .project__item {
+    box-sizing: border-box;
+    width: 336px;
+    height: 193px;
+    padding: 36px 43px;
+    margin-right: 30px;
+  
+    background-color: #EFE8DD;
+    border-radius: 33px;
+  }
+  
+  .project__item:last-child {
+    margin-right: 0;
+  }
+  
+  .projects__title {
+    margin-bottom: 9px;
+  
+    font-weight: 600;
+    color:#19181D;
+  }
+  
+  .project__description {
+    color: #19181D ;
+  }
+  
+  .projects__buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 247px;
+    margin-top: 31px;
+  }
+  
+  .education__description {
+    margin-top: 7px;
+    margin-bottom: 42px;
+  
+    font-weight: 300;
+    color: #EFE8DD;
+  }
+  
+  .course {
+    margin-bottom: 12px;
+  
+    font-size: 20px;
+    font-weight: 500;
+    color: #EFE8DD;
+  }
+  
+  .course__link {
+    margin-left: 8px;
+  
+    font-size: 16px;
+    font-weight: 300;
+    color: #EFE8DD;
+  }
+  
+  .contacts {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    width: 1180px;
+    margin: 45px auto;
+    padding: 21px 172px;
+  
+    background-color: #212024;
+    border: 2px solid #99E550;
+    border-radius: 33px;
+    box-shadow: inset 0 0 17px rgba(153,229,80,0.17);
+  }
+  
+  .location {
+    padding-left: 50px;
+    margin-top: 8px;
+  }
+  
+  .contacts__left {
+    margin-right: 75px;
+  }
+  
+  .contacts__list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 80px;
+  }
+  
+  .small-icon {
+    width: 30px;
+    margin-right: 20px;
+  }
+  
+  .link-contact {
+    font-weight: 400;
+    color: #EFE8DD;
+  }
+  
+  .contacts__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+    margin-right: 75px;
+  }
+  
+  .contacts__item:nth-child(2n) {
+    margin-bottom: 0px;
+  }
+  
+  .footer {
+    width: 100%;
+  
+    background: linear-gradient(to bottom, rgba(25,24,29,0) 0%, rgba(153,229,80,0.1) 100%);
+  }
+  
+  .footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1180px;
+    margin: 90px auto 0;
+    padding: 32px 0;
+  
+    border-top: 2px solid #EFE8DD;
+  }
+  
+  .logo-rsschool {
+    width: 125px;
+    margin-right: 43px;
+  }
+  
+  .logo-github {
+    width: 164px;
+  }
+  
+  .copyright {
+    font-weight: 500;
+    color: #99E550;
+    margin: 0 auto;
+  }
+  
